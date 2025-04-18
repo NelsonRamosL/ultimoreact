@@ -1,0 +1,46 @@
+react native nativo 0.78.1 (sin expo)
+
+
+*****************************************************************************************
+
+
+
+configuracion de navegation
+
+instalar libreria de menus (navigation)
+
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+
+****************************************************************
+
+
+
+configuracion con kotlin 
+
+editar  Edit MainActivity.kt   
+
+android/app/src/main/java/<your package name>/.
+
+class MainActivity: ReactActivity() {
+  // ...
+
+// Agregar esta linea dentro de la class MainActivity
+
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(null)
+  }
+  // ...
+}
+
+*****************************************************************
+
+dependencias necesarias 
+
+npm install react-native-screens react-native-safe-area-context
+
+******************************************************************
+
+npm install @react-navigation/native-stack
+npm install @react-navigation/elements   
+
